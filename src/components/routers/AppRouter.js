@@ -22,17 +22,17 @@ export const AppRouter = () => {
   return (
     <>
       <Routes>
-        <Route path='/auth/*' element={
+        <Route path='/segunda-mano/auth/*' element={
           <PublicRoute isAuthenticated={isLoggedIn} >
             <AuthRouter />
           </PublicRoute>
         } />
-        <Route path='/' element={
+        <Route path='/segunda-mano/' element={
           <PrivateRoute isAuthenticated={isLoggedIn} >
             <HomeScreen />
           </PrivateRoute>
         } />
-        <Route path="*" element={<Navigate replace to="/auth/" />} />
+        <Route path="*" element={<Navigate replace to="/segunda-mano/auth/" />} />
       </Routes>
     </>
   )

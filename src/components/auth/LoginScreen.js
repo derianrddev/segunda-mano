@@ -30,7 +30,7 @@ export const LoginScreen = () => {
     <div className='content-login'>
       <main className='container auth__container'>
         <h1 className='auth__title'>Login</h1>
-        <p className='auth__account'>O <Link to="/auth/register" className='auth__account--link'>crea una cuenta</Link></p>
+        <p className='auth__account'>O <Link to="/segunda-mano/auth/register" className='auth__account--link'>crea una cuenta</Link></p>
         <form className='auth-form' onSubmit={ handleLogin }>
           <div className='auth-form__input-wrapper'>
             <input

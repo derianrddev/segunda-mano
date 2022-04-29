@@ -28,7 +28,7 @@ export const RegisterScreen = () => {
     <div className='content-login'>
       <main className='container auth__container'>
         <h1 className='auth__title'>Regístrate</h1>
-        <p className='auth__account'>O <Link to="/auth/login" className='auth__account--link'>ya tengo una cuenta</Link></p>
+        <p className='auth__account'>O <Link to="/segunda-mano/auth/login" className='auth__account--link'>ya tengo una cuenta</Link></p>
         <form className='auth-form' onSubmit={ handleRegister }>
           <div className='auth-form__input-wrapper'>
             <input 
